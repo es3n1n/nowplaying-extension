@@ -16,8 +16,7 @@ const copyTextToClipboard = (text) => {
     return false;
   }
 
-  navigator.clipboard.writeText(text); // mb need to catch erros
-
+  navigator.clipboard.writeText(text); // maybe we need to catch erros
   return true;
 };
 
