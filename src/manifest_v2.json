@@ -10,8 +10,7 @@
     "128": "images/logo128.png",
     "1080": "images/logo1080.png"
   },
-  "permissions": ["tabs", "storage", "cookies"],
-  "host_permissions": ["https://soundcloud.com/*"],
+  "permissions": ["tabs", "storage", "cookies", "https://soundcloud.com/*"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
