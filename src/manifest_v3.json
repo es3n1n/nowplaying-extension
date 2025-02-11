@@ -11,7 +11,7 @@
     "1080": "images/logo1080.png"
   },
   "permissions": ["tabs", "storage", "cookies"],
-  "host_permissions": ["https://soundcloud.com"],
+  "host_permissions": ["https://soundcloud.com/*"],
   "background": {
     "service_worker": "background.js"
   },
